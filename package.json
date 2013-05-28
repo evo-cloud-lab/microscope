@@ -1,0 +1,40 @@
+{
+    "name": "microscope",
+    "description": "Log Analyzing Infrastructure",
+    "version": "0.0.1",
+    "author": "Yisui Hu <easeway@gmail.com>",
+    "keywords": [
+        "log", "logging", "trace",
+        "log analysis"
+    ],    
+    "scripts": {
+        "start": "node microscope",
+        "test": "mocha --reporter spec test/*-test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/evo-cloud/microscope"
+    },
+    "main": "./index",
+    "bin": "./microscope.js",
+    "dependencies": {
+        "evo-elements": "0.0.1",
+        "underscore": "1.4.4",
+        "async": "0.2.8",
+        "express": "3.2.4"
+    },
+    "devDependencies": {
+        "mocha": "1.10.0",
+        "sandboxed-module": "0.2.0"
+    },
+    "engines": {
+        "node": ">=0.8",
+        "npm": "1"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/evo-cloud/microscope/raw/master/LICENSE"
+        }
+    ]
+}
